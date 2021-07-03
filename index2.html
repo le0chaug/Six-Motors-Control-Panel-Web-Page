@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en", style= "  background:#fffeff";>
+
+
+  <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+  <form id="myForm" action="index.php" method = "POST" target="dummyframe">
+    
+    <title>Control-Panel</title>
+
+    <head> <link rel="stylesheet" href="style.css">  
+      <meta charset="UTF-8">
+    <body> 
+
+        
+        <h3> Motor 1 </h3>
+        <div class="slidecontainer">
+            <input type="range" min="0" max="100" value="50" oninput="rangeValue.innerText = this.value" class="slider" id="myRange">
+            <p> Motor 1: <span id = "rangeValue"></span></p> 
+          </div>
+           
+          
+          <h3> Motor 2 </h3>
+          <div class="slidecontainer">
+            <input type="range" min="0" max="100" value="50" oninput="rangeValue1.innerText = this.value" class="slider1" id="myRange1">
+            <p> Motor 2:  <span id = "rangeValue1"></span></p> 
+          </div>
+
+          <br/>
+          <h3> Motor 3 </h3>
+          <div class="slidecontainer">
+            <input type="range" min="0" max="100" value="50" oninput="rangeValue2.innerText = this.value" class="slider2" id="myRange2">
+            <p> Motor 3:  <span id = "rangeValue2"></span></p> 
+          </div>
+          
+          
+          <h3> Motor 4 </h3>
+          <div class="slidecontainer">
+            <input type="range" min="0" max="100" value="50" oninput="rangeValue3.innerText = this.value" class="slider3" id="myRange3">
+            <p> Motor 4:  <span id = "rangeValue3"></span></p> 
+          </div>
+          
+
+          <h3> Motor 5 </h3>
+          <div class="slidecontainer">
+            <input type="range" min="0" max="100" value="50" oninput="rangeValue4.innerText = this.value" class="slider4" id="myRange4">
+            <p> Motor 5:  <span id = "rangeValue4"></span></p> 
+          </div>
+          
+          
+          <h3> Motor 6 </h3>
+          <div class="slidecontainer">
+            <input type="range" min="0" max="100" value="50" oninput="rangeValue5.innerText = this.value" class="slider5" id="myRange5">
+             <p> Motor 6:  <span id = "rangeValue5"></span></p> 
+          </div>
+
+    </body>
+
+    
+    <input type="submit" value = "Save" name = save  style="font-size: 20px; background: rgb(129, 112, 96); border-radius: 50px;  color: white;" > 
+    <input type="submit" value = "ON" name = on  style="font-size: 20px; background: rgb(129, 112, 96); border-radius: 50px;  color: white;" >
+    <input type="submit" value = "OFF" name = off  style="font-size: 20px; background: rgb(129, 112, 96); border-radius: 50px; color: white;" >
+</head>
+</html>
